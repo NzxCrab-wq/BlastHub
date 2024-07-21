@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "NzxCrab 🔥 - Summer Update🏄", HidePremium = false, IntroText = "BlastHub", IntroIcon = "rbxassetid://18170549235", Icon = "rbxassetid://18170549235", SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "BlastHub | Summer Update🏄", HidePremium = false, IntroText = "HiddenScriptsHub", IntroIcon = "rbxassetid://18170549235", Icon = "rbxassetid://18170549235", SaveConfig = true, ConfigFolder = "OrionTest"})
 OrionLib:MakeNotification({
 	Name = "Loading Script...",
 	Content = "Script will be loaded in 25-30 seconds | Note - Seconds Shown Here are not the exact loading time❗",
@@ -46,7 +46,7 @@ Name = <string> - The name of the tab.
 Icon = <string> - The icon of the tab.
 PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
-Tab:AddParagraph("Read Before Using❗","First Step is click to select ur equipped gun make sure u got a gun equipped this will not work if the first step has been skipped, Second Step and the final step is click the dupe button and wait 2.4 minutes")
+Tab:AddParagraph("Read Before Using❗","First Step is click to select ur equipped gun make sure u got a gun equipped this will not work if the first step has been skipped, Second Step and the final step is click the dupe button and wait 2-4 minutes")
 Tab:AddButton({
 	Name = "Click to select Equipped-Gun 🔫",
 	Callback = function()
@@ -71,7 +71,7 @@ Tab:AddButton({
 	Callback = function()
 OrionLib:MakeNotification({
 	Name = "Duping Guns...⏳",
-	Content = "Duping is in process-[Takes around 2-4 minutes]-Dont leave the game❗",
+	Content = "Duping is in process-[Takes around 1-2 minutes]-Dont leave the game❗",
 	Image = "rbxassetid://4483345998",
 	Time = 120
 })
@@ -93,7 +93,7 @@ Time = <number> - The duration of the notfication.
   	end    
 })
 
-Tab:AddParagraph("Script Successfully Loaded❗","Enjoy The Script 🔥")
+Tab:AddParagraph("Script Successfully Loaded❗","Enjoy The Script, Youtube is NzxCrab")
 Tab:AddParagraph("Note❗","This Duping Process Can Only Dupe 2 items per Dupe-Process So Two Items Per 2-4 minutes❗But it is the only working dupe method🔨 ")
 local Tab = Window:MakeTab({
     Name = "Dupe Knives 🔪",
@@ -152,7 +152,7 @@ Time = <number> - The duration of the notfication.
 ]]
   	end    
 })
-Tab:AddParagraph("Script 100% Loaded❗","Enjoy The Script, NzxCrab 🔥")
+Tab:AddParagraph("Script Successfully Loaded❗","Enjoy The Script, NzxCrab 🎩")
 Tab:AddParagraph("Note❗","This Duping Process Can Only Dupe 2 items per Dupe-Process So Two Items Per 2-4 minutes❗But it is the only working dupe method🔨 ")
 --[[
 Name = <string> - The name of the button.
@@ -163,9 +163,9 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddParagraph("Nzx / Esp❗","Will highlight whoever the murderer is RED and will highlight whoever the sheriff is BLUE and will highlight whoever is innocent GREEN")
+Tab:AddParagraph("Hidden Scripts / Esp❗","Will highlight whoever the murderer is RED and will highlight whoever the sheriff is BLUE and will highlight whoever is innocent GREEN")
 Tab:AddButton({
-	Name = "Click to Enable ESP ",
+	Name = "Click to enable-ESP 🎯",
 	Callback = function()
 --[[
     Credits to Kiriot22 for the Role getter <3
@@ -237,8 +237,8 @@ RunService.RenderStepped:connect(function()
     UpdateHighlights()
 end)
 OrionLib:MakeNotification({
-	Name = "Player Esp Enabled",
-	Content = "The Player Esp Feature has been enabled",
+	Name = "Player-Esp Enabled-🕶️",
+	Content = "The Player-Esp Feature has been enabled-🟢",
 	Image = "rbxassetid://4483345998",
 	Time = 7
 })
@@ -281,11 +281,11 @@ local Tab = Window:MakeTab({
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
-Tab:AddParagraph("My Discord Server Link"," Join my discord server if u need help with bugs/errors on the script i made u can also talk to improve the script more")
+Tab:AddParagraph("My Discord server 🎩"," Join my discord server if u need help with bugs/errors on the script i made u can also talk to improve the script more")
 Tab:AddButton({
-	Name = "Discord Server 🎯",
+	Name = "Copy Link To Discord Server 🎯",
 	Callback = function()
-    setclipboard("https://discord.com/invite/rdrFrcp3Xt")
+    setclipboard("https://discord.com/invite/wChjYacVH6")
       		print("button pressed")
   	end    
 })
